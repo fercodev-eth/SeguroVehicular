@@ -1,10 +1,10 @@
-# Seguro Vehicular Fleet
+# Seguro Vehicular
 
-Este repositorio contiene el contrato inteligente `SeguroVehicularFleet`, diseñado para gestionar pólizas de seguro de vehículos para flotas de manera programática en la blockchain. Utiliza tokens ERC-20 (como stablecoins) para pagos de primas y desembolsos de reclamos, y se integra con un oráculo externo para determinar el estado de los siniestros de forma paramétrica.
+Este repositorio contiene el contrato inteligente `SeguroVehicular`, diseñado para gestionar pólizas de seguro de vehículos para flotas de manera programática en la blockchain. Utiliza tokens ERC-20 (como stablecoins) para pagos de primas y desembolsos de reclamos, y se integra con un oráculo externo para determinar el estado de los siniestros de forma paramétrica.
 
 ## Tabla de Contenidos
 
-- [Seguro Vehicular Fleet](#seguro-vehicular-fleet)
+- [Seguro Vehicular](#seguro-vehicular-)
   - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Descripción del Contrato](#descripción-del-contrato)
   - [Características Principales](#características-principales)
@@ -12,22 +12,10 @@ Este repositorio contiene el contrato inteligente `SeguroVehicularFleet`, diseñ
   - [Despliegue](#despliegue)
     - [Prerequisitos](#prerequisitos)
     - [Instalación](#instalación)
-    - [Configuración](#configuración)
-    - [Despliegue en Redes Locales/Testnets](#despliegue-en-redes-localestestnets)
-  - [Funcionalidades del Contrato](#funcionalidades-del-contrato)
-    - [Constructor](#constructor)
-    - [Funciones del Propietario](#funciones-del-propietario)
-    - [Funciones para Empresas Aseguradas](#funciones-para-empresas-aseguradas)
-    - [Funciones de Utilidad](#funciones-de-utilidad)
-  - [Eventos](#eventos)
-  - [Consideraciones de Seguridad](#consideraciones-de-seguridad)
-  - [Auditorías](#auditorías)
-  - [Licencia](#licencia)
-  - [Contacto](#contacto)
 
 ## Descripción del Contrato
 
-`SeguroVehicularFleet` es un contrato inteligente que permite a las empresas de flotas asegurar sus vehículos de manera descentralizada. El contrato automatiza la emisión de pólizas, el pago de primas y el procesamiento de reclamos por siniestro total, basándose en la información proporcionada por un oráculo externo de siniestros. La lógica está diseñada para ser paramétrica, lo que significa que los pagos de reclamos se disparan automáticamente una vez que el oráculo confirma un siniestro total.
+`SeguroVehicular` es un contrato inteligente que permite a las empresas de flotas asegurar sus vehículos de manera descentralizada. El contrato automatiza la emisión de pólizas, el pago de primas y el procesamiento de reclamos por siniestro total, basándose en la información proporcionada por un oráculo externo de siniestros. La lógica está diseñada para ser paramétrica, lo que significa que los pagos de reclamos se disparan automáticamente una vez que el oráculo confirma un siniestro total.
 
 ## Características Principales
 
@@ -59,4 +47,5 @@ Clona el repositorio y navega al directorio del proyecto:
 
 ```bash
 git clone <URL_DEL_REPOSITORIO>
-cd SeguroVehicularFleet
+cd SeguroVehicular
+
